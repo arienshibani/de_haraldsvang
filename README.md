@@ -13,3 +13,7 @@ This CS2 map is an accurate recreation of the original Haraldsvang School in Hau
 <img width="637" height="358" alt="image" src="https://github.com/user-attachments/assets/2033f24e-f2b0-4c1a-a658-432522b70fdd" />
 <img width="637" height="358" alt="image" src="https://github.com/user-attachments/assets/8d9dc0d0-8780-4db6-9c04-21e71dd67bbe" />
 <img width="637" height="358" alt="image" src="https://github.com/user-attachments/assets/9a48f7ea-e6d4-4bf4-bf86-eecea2530e9d" />
+
+## Credits & Acknowledgments
+
+- Shoutsout to the [Mapcore Discord](https://discord.gg/jEFpDJwf) for assisting with the CS:GO -> Source 2 Engine migration 🥳
