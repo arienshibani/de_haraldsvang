@@ -1,0 +1,22 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_trash_bag_02_color.tga"
+	"TextureNormal"		"materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_trash_bag_02_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_dust/hr_dust/dust_garbage_container/dust_trash_bag_02_normal_rough.tga"
+	"F_SPECULAR_DIRECT"		"1"
+	"F_SPECULAR_INDIRECT"		"1"
+	"legacy_import"
+	{
+		"VertexlitGeneric"
+		{
+			"$basetexture"		"models\props\de_dust\hr_dust\dust_garbage_container\dust_trash_bag_02_color"
+			"$bumpmap"		"models\props\de_dust\hr_dust\dust_garbage_container\dust_trash_bag_02_normal"
+			"$phong"		"1"
+			"$phongboost"		"0.150000"
+			"$phongexponent"		"70"
+		}
+	}
+}

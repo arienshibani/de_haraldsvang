@@ -1,0 +1,84 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_lightmappedgeneric.vfx"
+
+	//---- Indirect/Cubemap Specular - S1 $envmap ----
+	F_SPECULAR_INDIRECT 1
+
+	//---- Translucent ----
+	F_TRANSLUCENT 1
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flVertexColorOpacityScale "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Lighting ----
+	g_flMetalness "0.000"
+
+	//---- PBR 1 ----
+	g_vLayer1Tint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureLayer1AmbientOcclusion "materials/default/default_ao.tga"
+	TextureLayer1Color "materials/models/props_windows/window_uban_apt_glass_color.tga"
+	TextureLayer1Normal ""
+	TextureLayer1Roughness "materials/models/props_windows/window_uban_apt_glass_ref_rough.tga"
+	TextureLayer1Translucency "materials/models/props_windows/window_uban_apt_glass_trans.tga"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "2" // Wrap
+	g_nTextureAddressModeV "2" // Wrap
+
+	//---- Translucent ----
+	g_flOpacityScale "1.000"
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "glass"
+	}
+
+	UnusedVariables
+	{
+		"g_flLayer1NormalTexCoordRotation" "0"
+		"g_flLayer1TexCoordRotation" "0"
+		"g_vLayer1NormalTexCoordCenter" "[0.500 0.500]"
+		"g_vLayer1NormalTexCoordOffset" "[0.000 0.000]"
+		"g_vLayer1NormalTexCoordScale" "[1.000 1.000]"
+		"g_vLayer1TexCoordCenter" "[0.500 0.500]"
+		"g_vLayer1TexCoordOffset" "[0.000 0.000]"
+		"g_vLayer1TexCoordScale" "[1.000 1.000]"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Lighting"
+		{
+			"Metalness" 0
+		}
+		"PBR 1"
+		{
+			"Albedo" 0
+			"Albedo Translucency" 0
+			"Normal" 0
+			"Roughness" 0
+			"Ambient Occlusion" 0
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
+}

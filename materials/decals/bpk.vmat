@@ -1,0 +1,73 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_static_overlay.vfx"
+
+	//---- Blend Mode ----
+	F_BLEND_MODE 2 // Alpha Test
+
+	//---- Color ----
+	g_flModelTintAmount "1.000"
+	g_flTexCoordRotation "0.000"
+	g_fTextureColorBrightness "-0.889"
+	g_fTextureColorContrast "2.794"
+	g_fTextureColorSaturation "2.857"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.417 0.500]"
+	g_vTexCoordOffset "[0.300 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	g_vTextureColorCorrectionTint "[0.000000 0.000000 0.000000 0.000000]"
+	TextureColor "materials/decals/bpk.png.png"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Translucent ----
+	g_flAlphaTestReference "0.010"
+	g_flAntiAliasedEdgeStrength "0.000"
+	TextureTranslucency ""
+
+	UnusedVariables
+	{
+		"TextureAmbientOcclusion" ""
+		"g_fTextureRoughnessBrightness" "1"
+		"g_fTextureRoughnessContrast" "1"
+		"TextureMetalness" ""
+		"TextureRoughness" ""
+		"g_fTextureNormalContrast" "1"
+		"TextureNormal" ""
+		"g_flSelfIllumAlbedoFactor" "1"
+		"g_flSelfIllumBrightness" "0"
+		"g_flSelfIllumScale" "1"
+		"g_vSelfIllumScrollSpeed" "[0.000 0.000]"
+		"g_vSelfIllumTint" "[1.000000 1.000000 1.000000 0.000000]"
+		"TextureSelfIllumMask" ""
+		"g_flOpacityScale" "0.406"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+			"Color Correction" 0
+		}
+		"Fog"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Translucent"
+		{
+		}
+	}
+}

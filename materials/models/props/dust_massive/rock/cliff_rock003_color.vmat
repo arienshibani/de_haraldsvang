@@ -1,0 +1,30 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/dust_massive/rock/cliff_rock003_color.tga"
+	"TextureNormal"		"materials/models/props/dust_massive/rock/cliff_rock003_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"TextureDetail"		"[0.500000 0.500000 0.500000 1.000000]"
+	"g_vDetailTexCoordScale"		"[5.000000 5.000000]"
+	"g_flDetailBlendFactor"		"0.650000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"rock"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/dust_massive/rock/cliff_rock003_color.vtf"
+			"$bumpmap"		"models/props/dust_massive/rock/cliff_rock003_normal.vtf"
+			"$surfaceprop"		"rock"
+			"$detail"		"detail/detail_rock001"
+			"$detailscale"		"[5 5]"
+			"$detailblendfactor"		"0.650000"
+			"$detailblendmode"		"0"
+		}
+	}
+}

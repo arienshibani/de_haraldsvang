@@ -1,0 +1,38 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"TextureLayer1Color"		"materials/hr_massive/dirt_ground_1b_color.tga"
+	"TextureLayer1Normal"		"materials/hr_massive/dirt_ground_1b_normal.tga"
+	"TextureLayer1Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureLayer2Color"		"materials/hr_massive/dirt_ground_1_color.tga"
+	"TextureLayer2Normal"		"materials/hr_massive/dirt_ground_1_normal.tga"
+	"TextureLayer2Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer2AmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureBlendModulation"		"materials/hr_massive/dirt_ground_1_blend_1_modulate_blend.tga"
+	"F_LAYERS"		"1"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"g_vLayer2Tint"		"[1.000000 1.000000 1.000000]"
+	"F_FANCY_BLENDING"		"1"
+	"F_TEXTURETRANSFORMS"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"slowgrass"
+		"PhysicsSurfaceProperties2"		"dirt"
+	}
+	"legacy_import"
+	{
+		"worldvertextransition"
+		{
+			"%tooltexture"		"hr_massive\dirt_ground_1_blend_1_tooltexture"
+			"$basetexture"		"hr_massive\dirt_ground_1b"
+			"$bumpmap"		"hr_massive\dirt_ground_1b_normal"
+			"$blendmodulatetexture"		"hr_massive\dirt_ground_1_blend_1_modulate"
+			"$basetexture2"		"hr_massive\dirt_ground_1"
+			"$bumpmap2"		"hr_massive\dirt_ground_1_normal"
+			"$surfaceprop"		"slowgrass"
+			"$surfaceprop2"		"dirt"
+			"%detailtype"		"survival_grass_2"
+		}
+	}
+}

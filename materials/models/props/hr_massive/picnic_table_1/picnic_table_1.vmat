@@ -1,0 +1,24 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/hr_massive/picnic_table_1/picnic_table_1_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"TextureDetail"		"[0.500000 0.500000 0.500000 1.000000]"
+	"g_vDetailTexCoordScale"		"[12.000000 12.000000]"
+	"g_flDetailBlendFactor"		"0.600000"
+	"F_DETAIL_TEXTURE"		"1"
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"models\props\hr_massive\picnic_table_1\picnic_table_1"
+			"$detail"		"detail\dt_texture01"
+			"$detailscale"		"[12 12]"
+			"$detailblendfactor"		"0.600000"
+			"$detailblendmode"		"0"
+		}
+	}
+}

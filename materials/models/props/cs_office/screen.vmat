@@ -1,0 +1,31 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/cs_office/screen_color.mks"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureRoughness"		"[0.050000 0.050000 0.050000 1.000000]"
+	"TextureSelfIllumMask"		"materials/models/props/cs_office/screen_selfillum.mks"
+	"F_SELF_ILLUM"		"1"
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"models\props\cs_office\screen"
+			"$selfillum"		"1"
+			"$envmap"		"env_cubemap"
+			"$envmapmask"		"fx\white50_ref"
+			"Proxies"
+			{
+				"AnimatedTexture"
+				{
+					"animatedTextureVar"		"$basetexture"
+					"animatedTextureFrameNumVar"		"$frame"
+					"animatedTextureFrameRate"		"2"
+				}
+			}
+		}
+	}
+}

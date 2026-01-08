@@ -1,0 +1,16 @@
+"Layer0"
+{
+	"Shader"		"csgo_decalmodulate.vfx"
+	"DecalColor"		"[0.500000 0.500000 0.500000 1.000000]"
+	"F_OVERLAY"		"1"
+	"legacy_import"
+	{
+		"DecalModulate"
+		{
+			"$basetexture"		"graffiti/graffiti_rural_comp_01_512"
+			"$decal"		"1"
+			"$vertexcolor"		"1"
+			"$vertexalpha"		"1"
+		}
+	}
+}

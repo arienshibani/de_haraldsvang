@@ -1,0 +1,31 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"TextureLayer1Color"		"materials/tile/urban_tilefloor02a_color.tga"
+	"TextureLayer1Normal"		"materials/tile/urban_tilefloor01a_ssbump_normal.tga"
+	"g_flCubeMapScalar"		"0.020000"
+	"TextureLayer1Roughness"		"materials/tile/urban_tilefloor01a_ssbump_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"F_LAYERS"		"0"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"F_TEXTURETRANSFORMS"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"tile"
+	}
+	"legacy_import"
+	{
+		"LightmappedGeneric"
+		{
+			"$basetexture"		"Tile/urban_tilefloor02a"
+			"$surfaceprop"		"tile"
+			"$bumpmap"		"tile/urban_tilefloor01a_ssbump"
+			"$ssbump"		"1"
+			"$envmap"		"env_cubemap"
+			"$normalmapalphaenvmapmask"		"1"
+			"$envmaptint"		"[ .02 .02 .02 ]"
+			"%keywords"		"l4d"
+		}
+	}
+}

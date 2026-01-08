@@ -1,0 +1,21 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props_interiors/furniture_wood01_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"g_flCubeMapScalar"		"0.150000"
+	"TextureRoughness"		"materials/models/props_interiors/furniture_wood01_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"Models/props_interiors/furniture_wood01"
+			"$envmap"		"env_cubemap"
+			"$basealphaenvmapmask"		"1"
+			"$envmaptint"		"[.15 .15 .15]"
+		}
+	}
+}

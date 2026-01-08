@@ -1,0 +1,6 @@
+"AddonInfo"
+{
+	addonversion		"1.1"
+	addontitle		"Haraldsvang"
+	addonauthor		"BPK SHLEEP"
+}

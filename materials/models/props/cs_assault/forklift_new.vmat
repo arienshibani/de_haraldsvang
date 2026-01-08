@@ -1,0 +1,33 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/cs_assault/forklift_new_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/cs_assault/forklift_new_rough.tga"
+	"F_SPECULAR_DIRECT"		"1"
+	"F_SPECULAR_INDIRECT"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"models\props\cs_assault\forklift_new"
+			"$surfaceprop"		"metal"
+			"$envmap"		"env_cubemap"
+			"$phong"		"1"
+			"$phongexponent"		"25"
+			"$phongboost"		"5"
+			"$phongfresnelranges"		"[.3 .6 4]"
+			"$basealphaenvmapmask"		"1"
+			"$basemapalphaphongmask"		"1"
+			"$envmapcontrast"		"1"
+			"$envmapsaturation"		"0.010000"
+			"$envmaplightscale"		"0.600000"
+		}
+	}
+}

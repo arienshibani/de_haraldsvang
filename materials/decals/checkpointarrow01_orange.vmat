@@ -1,0 +1,18 @@
+"Layer0"
+{
+	"Shader"		"csgo_decalmodulate.vfx"
+	"DecalColor"		"materials/decals/checkpointarrow01_orange_color.tga"
+	"F_OVERLAY"		"1"
+	"legacy_import"
+	{
+		"DecalModulate"
+		{
+			"$baseTexture"		"decals/checkpointarrow01_orange"
+			"$decal"		"1"
+			"$fogscale"		"2.500000"
+			"$decalscale"		"0.200000"
+			"$vertexcolor"		"1"
+			"$vertexalpha"		"1"
+		}
+	}
+}

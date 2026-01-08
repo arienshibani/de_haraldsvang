@@ -1,0 +1,37 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props_interiors/kitchen_props_industrial01_color.tga"
+	"TextureNormal"		"[0.501961 0.501961 0.996078 1.000000]"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props_interiors/kitchen_props_industrial01_rough.tga"
+	"F_SPECULAR_DIRECT"		"1"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureDetail"		"[0.500000 0.500000 0.500000 1.000000]"
+	"g_vDetailTexCoordScale"		"[32.000000 32.000000]"
+	"g_flDetailBlendFactor"		"0.300000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"default"
+	}
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"Models/props_interiors/Kitchen_props_industrial01"
+			"$surfaceprop"		"default"
+			"$bumpmap"		"effects/flat_normal"
+			"$phong"		"1"
+			"$phongboost"		"0.250000"
+			"$phongexponent"		"30"
+			"$BASEMAPLUMINANCEPHONGMASK"		"1"
+			"$phongfresnelranges"		"[30 30 60]"
+			"$detail"		"detail\dt_ssteel1"
+			"$detailscale"		"32"
+			"$detailblendfactor"		"0.300000"
+			"$detailblendmode"		"0"
+		}
+	}
+}

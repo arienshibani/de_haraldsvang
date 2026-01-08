@@ -1,0 +1,27 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_inferno/hr_i/barrel_a/barrel_metal_a_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"g_flCubeMapScalar"		"0.250000"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureRoughness"		"[0.528125 0.528125 0.528125 1.000000]"
+	"TextureDetail"		"[0.500000 0.500000 0.500000 1.000000]"
+	"g_vDetailTexCoordScale"		"[8.000000 8.000000]"
+	"g_flDetailBlendFactor"		"0.500000"
+	"F_DETAIL_TEXTURE"		"1"
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"models\props\de_inferno\hr_i\barrel_a\barrel_metal_a.vtf"
+			"$detail"		"detail\dt_metal2"
+			"$detailscale"		"[8 8]"
+			"$detailblendfactor"		"0.500000"
+			"$envmaptint"		"[.25 .25 .25]"
+			"$envmap"		"env_cubemap"
+		}
+	}
+}

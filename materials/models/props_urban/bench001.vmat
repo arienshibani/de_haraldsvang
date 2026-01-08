@@ -1,0 +1,33 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props_urban/bench001_color.tga"
+	"TextureNormal"		"[0.505882 0.501961 1.000000 1.000000]"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props_fortifications/orangecone001_normal_rough.tga"
+	"F_SPECULAR_DIRECT"		"1"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureTranslucency"		"materials/models/props_urban/bench001_trans.tga"
+	"F_ALPHA_TEST"		"1"
+	"g_flAlphaTestReference"		"0.300000"
+	"F_RENDER_BACKFACES"		"1"
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$baseTexture"		"models/props_urban/bench001.vtf"
+			"$phong"		"1"
+			"$phongexponent"		"50"
+			"$phongboost"		"0.125000"
+			"$phongfresnelranges"		"[.7 15 20]"
+			"$bumpmap"		"models/props_fortifications/orangecone001_normal"
+			"$nocull"		"1"
+			"$AllowFenceRenderStateHack"		"1"
+			"$AlphaTest"		"1"
+			"$AlphaTestReference"		"0.300000"
+			"$Translucent"		"1"
+			"$FlashlightNoLambert"		"1"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+"Layer0"
+{
+	"Shader"		"csgo_decalmodulate.vfx"
+	"DecalColor"		"materials/decals/blood3_color.tga"
+	"F_OVERLAY"		"1"
+	"legacy_import"
+	{
+		"DecalModulate"
+		{
+			"$basetexture"		"Decals/Blood3"
+			"$decal"		"1"
+			"$decalscale"		"0.150000"
+			"$vertexcolor"		"1"
+			"$vertexalpha"		"1"
+			"$splatter"		"1"
+			"$fogfadeend"		"0.500000"
+		}
+	}
+}

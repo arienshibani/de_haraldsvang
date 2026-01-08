@@ -1,0 +1,49 @@
+# --- SOURCE 2 JUNK ---
+*_c
+/lighting/
+*.log
+*.err
+*.vmap_undo
+*.vmap_bak
+*.bak
+
+# --- HAMMER TEMP FILES ---
+*.vmap_autosave
+*.vmap_temp
+*.vmap_repro
+
+# --- MODELS (Smart Approach) ---
+# Ignore all models by default (Valve/Stock props)
+/models/*
+# EXCEPT your custom folder where you keep your unique work
+!/models/custom/
+# But still ignore compiled junk inside your custom folder
+/models/custom/*_c
+
+# --- SYSTEM ---
+.DS_Store
+Thumbs.db
+
+# --- BAKED DATA (The Heavy Stuff) ---
+# Lighting is generated on compile; no need to store it
+/lighting/
+
+# Post-process bakes can get large
+postprocess/*_c
+
+# --- ENGINE COMPILED FILES ---
+# This catches 99% of the junk in every folder
+*_c
+
+# --- HAMMER TRASH ---
+*.bak
+*.vmap_bak
+*.vmap_undo
+*.vmap_autosave
+*.vmap_temp
+*.log
+*.err
+
+# --- THUMBNAILS & PREVIEWS ---
+# Hammer generates these for the asset browser
+.texture_render_cache/

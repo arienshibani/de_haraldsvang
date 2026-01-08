@@ -1,0 +1,22 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_dust/hr_dust/dust_vents/dust_wall_vents_01_color.tga"
+	"TextureNormal"		"materials/models/props/de_dust/hr_dust/dust_vents/dust_wall_vents_01_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"models\props\de_dust\hr_dust\dust_vents\dust_wall_vents_01_color"
+			"$bumpmap"		"models\props\de_dust\hr_dust\dust_vents\dust_wall_vents_01_normal"
+			"$surfaceprop"		"metal"
+		}
+	}
+}

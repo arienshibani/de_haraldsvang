@@ -1,0 +1,6 @@
+SEQUENCE 0
+name unnamed
+loop
+
+frame screen_selfillum000.tga 1
+frame screen_selfillum001.tga 1

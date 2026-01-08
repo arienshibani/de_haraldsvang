@@ -1,0 +1,37 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_dust/hr_dust/foliage/olive_bark_01_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"wood"
+	}
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$basetexture"		"models\props\de_dust\hr_dust\foliage\olive_bark_01"
+			"$model"		"1"
+			"$surfaceprop"		"wood"
+			"$treeSway"		"1"
+			"$treeSwayHeight"		"10"
+			"$treeSwayStartHeight"		"0.500000"
+			"$treeSwayRadius"		"100"
+			"$treeSwayStartRadius"		"0.000000"
+			"$treeSwaySpeed"		"0.200000"
+			"$treeSwayStrength"		"0.001500"
+			"$treeSwayScrumbleSpeed"		"1.200000"
+			"$treeSwayScrumbleStrength"		"0.150000"
+			"$treeSwayScrumbleFrequency"		"2"
+			"$treeSwayFalloffExp"		"2000"
+			"$treeSwayScrumbleFalloffExp"		"3"
+			"$treeSwaySpeedHighWindMultiplier"		"0"
+			"$treeSwaySpeedLerpStart"		"200.000000"
+			"$treeSwaySpeedLerpEnd"		"800.000000"
+		}
+	}
+}

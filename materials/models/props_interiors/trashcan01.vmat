@@ -1,0 +1,25 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props_interiors/trashcan01_color.tga"
+	"TextureNormal"		"[0.501961 0.501961 0.996078 1.000000]"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props_interiors/trashcan01_rough.tga"
+	"F_SPECULAR_DIRECT"		"1"
+	"F_SPECULAR_INDIRECT"		"1"
+	"legacy_import"
+	{
+		"VertexLitGeneric"
+		{
+			"$baseTexture"		"models\props_interiors/TrashCan01"
+			"$bumpmap"		"effects/flat_normal"
+			"$halflambert"		"1"
+			"$phong"		"1"
+			"$phongboost"		"1"
+			"$phongexponent"		"30"
+			"$BASEMAPLUMINANCEPHONGMASK"		"1"
+			"$phongfresnelranges"		"[30 30 60]"
+		}
+	}
+}
