@@ -8,7 +8,7 @@ Custom defusal map for Counter Strike 2
 >  3. **Maximum players:** 10 (5 per team)
 
 ## About 
-This CS2 map is an accurate recreation of the original Haraldsvang School in Haugesund, as it stood from its opening in 1970 until its demolition in 2024. The project is based on original blueprints by architect [David Sandved](https://no.wikipedia.org/wiki/David_Sandved), combined with the personal memories of former students. This is more than just a map: it is a nostalgic time capsule of a building that served as one of Norway’s largest junior high schools for over 50 years.
+This CS2 map is an accurate recreation of the original Haraldsvang School in Haugesund, as it stood from its opening in 1970 until [its demolition in 2024](https://www.haugesund.kommune.no/aktuelt/gamleskolen-rives.29234.aspx). The project is based on original blueprints by architect [David Sandved](https://no.wikipedia.org/wiki/David_Sandved), combined with the personal memories of former students. This is more than just a map: it is a nostalgic time capsule of a building that served as one of Norway’s largest junior high schools for over 50 years.
 
 
 
